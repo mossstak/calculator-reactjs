@@ -5,7 +5,7 @@ const Screen = ({ value, preview }) => {
   return (
     <textFit className="screen" maxFontSize={60}>
       <label className="label">{preview}</label>
-      <label className="">{value}</label>
+      <label className="value">{value}</label>
     </textFit>
   );
 };
