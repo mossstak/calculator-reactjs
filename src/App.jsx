@@ -133,7 +133,7 @@ const App = () => {
 
   return (
     <Wrapper>
-      <Screen preview={calc.sign ? calc.sign + " " + calc.num : calc.num} value={calc.res}/>  
+      <Screen value={calc.res} preview={calc.sign ? calc.res + " " + calc.sign + " " + calc.num : calc.num}/>  
       <ButtonBox>
         {
           btnValues.flat().map((btn, i) => {
